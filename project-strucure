@@ -1,0 +1,65 @@
+travel-ai-platform/
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   ├── Search.jsx
+│   │   │   ├── Destination.jsx
+│   │   │   ├── Login.jsx
+│   │   │   └── Register.jsx
+│   │   │
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── DestinationCard.jsx
+│   │   │   ├── ReviewCard.jsx
+│   │   │   └── SearchBar.jsx
+│   │   │
+│   │   ├── services/
+│   │   │   ├── api.js
+│   │   │   └── auth.js
+│   │   │
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   └── package.json
+│
+├── backend/
+│   ├── controllers/
+│   │   ├── destinationController.js
+│   │   ├── authController.js
+│   │   └── aiController.js
+│   │
+│   ├── routes/
+│   │   ├── destinationRoutes.js
+│   │   ├── authRoutes.js
+│   │   └── aiRoutes.js
+│   │
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Destination.js
+│   │   └── Review.js
+│   │
+│   ├── middleware/
+│   │   └── auth.js
+│   │
+│   ├── services/
+│   │   ├── seleniumScraper.js
+│   │   ├── aiReviewService.js
+│   │   └── destinationService.js
+│   │
+│   ├── config/
+│   │   └── db.js
+│   │
+│   ├── app.js
+│   └── server.js
+│
+├── scraper/
+│   ├── hotelsScraper.js
+│   ├── attractionsScraper.js
+│   └── reviewsScraper.js
+│
+├── README.md
+├── package.json
+└── .env
